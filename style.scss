@@ -22,7 +22,10 @@ body {
 }
 
 .box {
+  padding: 0 1rem;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 2rem;
 
   a {
