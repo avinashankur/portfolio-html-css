@@ -17,25 +17,35 @@ a {
 body {
   height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
-.box {
-  padding: 0 1rem;
+#hello {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-transform: uppercase;
+}
+
+.socials {
+  margin-top: 15rem;
+  padding: 0 2rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 2rem;
 }
-.box a {
+.socials a {
   position: relative;
   color: #bdbdbd;
   padding: 0.5rem;
   border-radius: 0.5rem;
   transition: background-color 0.2s ease-out;
 }
-.box a:after {
+.socials a:after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -47,7 +57,7 @@ body {
   transform-origin: bottom right;
   transition: transform 0.3s ease-out;
 }
-.box a:hover:after {
+.socials a:hover:after {
   color: white;
   transform: scaleX(1);
   transform-origin: bottom left;

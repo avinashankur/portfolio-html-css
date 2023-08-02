@@ -17,12 +17,22 @@ a {
 body {
   height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
-.box {
-  padding: 0 1rem;
+#hello {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-transform: uppercase;
+}
+
+.socials {
+  margin-top: 15rem;
+  padding: 0 2rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
