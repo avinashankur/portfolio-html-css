@@ -40,6 +40,9 @@ body {
   gap: 2rem;
 }
 .socials a {
+  text-transform: uppercase;
+  font-size: small;
+  font-weight: bold;
   position: relative;
   color: #bdbdbd;
   padding: 0.5rem;
@@ -90,44 +93,4 @@ body {
 
 .custom-cursor--init {
   opacity: 1;
-}
-
-.block {
-  display: grid;
-  place-content: center;
-  place-items: center;
-  height: 80vh;
-  min-height: 300px;
-}
-
-.block--black {
-  background-color: black;
-  color: white;
-}
-
-.block--white {
-  background-color: white;
-  color: black;
-}
-
-.block__title,
-.block__link {
-  color: currentColor;
-}
-
-.block__title {
-  margin-bottom: 1em;
-  font-size: 4rem;
-  font-weight: 300;
-  text-align: center;
-}
-
-.block__link {
-  padding: 0.5em;
-  text-decoration: none;
-  transition: letter-spacing 200ms ease;
-}
-
-.block__link:hover {
-  letter-spacing: 0.2em;
 }/*# sourceMappingURL=style.css.map */
